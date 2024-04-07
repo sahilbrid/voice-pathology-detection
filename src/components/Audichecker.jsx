@@ -414,7 +414,7 @@ const MacBookPro141 = () => {
         formData.append('audio', audioFile);
 
         try {
-            const response = await fetch('http://127.0.0.1:8080/audio', {
+            const response = await fetch('http://13.235.0.240/audio', {
                 method: 'POST',
                 body: formData,
             });
