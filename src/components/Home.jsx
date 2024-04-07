@@ -5,6 +5,7 @@ import logo from "../assets/logo.png"
 import health from "../assets/dihealth.png"
 import footimp from "../assets/footimp.png"
 import india from "../assets/india.png"
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -34,8 +35,8 @@ const Home = () => {
       </div>
       <div className="macbook-pro-14-1-item" />
       <div className="menu">
-        <a href="/home" className="home">Home</a>
-        <a href="/audichecker" className="audichecker">AudiChecker</a>
+        <Link to="/home" className="home">Home</Link>
+        <Link to='/audichecker' className="audichecker">AudiChecker</Link>
         <div className="audichecker-wrapper">
         </div>
       </div>
