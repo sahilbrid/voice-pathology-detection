@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_from_directory, send_file
 from flask_cors import CORS
 import os
 import pandas as pd
@@ -59,6 +59,11 @@ def audio():
             return jsonify({"error": "No audio key found in the request."})
     else:
         return jsonify({"error": "Unsupported method"})
+    
+
+@app.route('/plot/<path:plot_path>', methods=['GET'])
+def plot(plot_path):
+    return send_file(plot_path, mimetype='image/png')
 
 
 if __name__ == '__main__':

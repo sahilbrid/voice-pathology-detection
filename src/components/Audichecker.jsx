@@ -562,7 +562,7 @@ const MacBookPro141 = () => {
       <div>
         {plotPath && (
             <div className="graph-container">
-              <img src={plotPath} alt="Prediction Plot" className="prediction-plot" />
+              <img src={`http://13.235.0.240/plot/${encodeURIComponent(plotPath)}`} alt="Prediction Plot" className="prediction-plot" />
             </div>
           )}
       </div>
