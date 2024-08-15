@@ -22,3 +22,72 @@ The model was trained and tested on a comprehensive [Saarbruecken Voice Database
 
 
 # Installation
+To use this project perform the following tasks
+
+Make sure you are using python 3.9.6 or better (https://www.python.org/downloads/release/python-396/)
+
+Clone the repository using
+```
+git clone https://github.com/sahilbrid/voice-pathology-detection.git
+```
+
+Navigate to the project directory
+```
+cd voice-pathology-detection
+```
+
+Install the required python packages
+```
+pip install -r requirements.txt
+```
+
+Install the required frontend dependencies
+```
+cd frontend
+npm install
+```
+
+Run the Flask application
+```
+cd ..
+python app.py
+```
+
+Start the React frontend
+```
+cd frontend
+npm run dev
+```
+
+
+# Usage
+Once the application (app.py) file is running
+
+- Open your browser and go to http://localhost:5173/
+
+  It will open the landing page
+
+  ![image](https://github.com/user-attachments/assets/4a18781b-e8e7-426d-af97-f2250ab18a25)
+
+  It should look something like this
+
+- Now go to the AudiChecker section. Here you can upload the audio file in .wav format that you want to check
+
+  ![image](https://github.com/user-attachments/assets/4f26adfc-04d5-434f-851d-19589531e83d)
+
+- After uploading the audio, click on diagnose button
+
+  ![image](https://github.com/user-attachments/assets/21a745d2-99f5-40bf-ac62-3bcf53e7a9dc)
+
+  The predicted pathology of the audio along with its spectrogram will be displayed.
+
+
+# Technology Used
+- **Frontend**: React, CSS
+- **Backend**: Python, Flask
+- **Machine Learning**: Scikit-learn, Tensorflow, Librosa, Pandas, Numpy
+- **Deployment**: AWS S3, AWS EC2
+
+
+# Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
