@@ -7,7 +7,7 @@
   backdrop-filter: blur(24.2px);
   border-bottom: 1px solid var(--color-lightpink);
   box-sizing: border-box;
-  width: 1512px;
+  width: 1520px;
   height: 95px;
 }
 .audichecker1,
@@ -142,8 +142,6 @@
   top: 11.7px;
   width: 31px;
   height: 28.4px;
-  /* overflow: hidden; */
-  /* background-color: white; */
 }
 .record-audio {
   position: absolute;
@@ -275,7 +273,7 @@
 }
 .frame-parent {
   position: absolute;
-  top: 195px;
+  top: 170px;
   left: calc(50% - 670px);
   border-radius: var(--br-xl);
   border: 1px solid var(--color-gray-200);
@@ -295,10 +293,7 @@
   font-family: var(--font-inter);
 }
 
-/* newly added */
 .diagnose {
-  /* background-color: #007bff; */
-  /* color: white; */
   padding: 10px 20px;
   margin-top: 5px;
   background-color: var(--color-lavenderblush);
@@ -306,27 +301,14 @@
   border: none;
   font-size: large;
   color: black;
-  /* border-radius: 5px; */
   cursor: pointer;
   transition: 0.3s;
-  /* Define styles for the button */
-  /* background-color: black; */
 }
 
 .diagnose:hover {
-  /* color: black; */
-  /* background-color: white; */
   background-color: var(--color-deeppink-100);
   color: white;
-  /* background-color: #0056b3; */
-  /* Define styles for the button on hover */
-  /* background-color: black; */
 }
-
-/* .diagnose-active {
-  /* Define styles for the button whesn audio file is uploaded */
-  /* background-color: black; */
-/* } */
 
 .Predictions {
   position: relative;
@@ -338,7 +320,7 @@
 
 .audio-player {
   position: relative;
-  top: 560px;
+  top: 568px;
   color: var(--color-black);
 }
 
@@ -349,4 +331,515 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1440px) {
+  .menu1 {
+    top: 0.7%;
+    left: 1250px;
+  }
+  .audichecker1 {
+    display: none;
+  }
+
+  .frame-parent {
+    top: 125px;
+  }
+
+  .audio-player {
+    top: 585px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .macbook-pro-14-2-child {
+    width: 1280px;
+    height: 80px;
+  }
+  .logo-icon2 {
+    top: 21px;
+    left: 50px;
+  }
+  .audihealth {
+    top: 29px;
+    left: 100px;
+  }
+  .menu1 {
+    top: 0.5%;
+    left: 1100px;
+  }
+  .audichecker1 {
+    display: none;
+  }
+  .frame-parent {
+    top: 120px;
+    left: 20px;
+    width: 1240px;
+  }
+  .group-div {
+    left: 20px;
+    width: 1200px;
+  }
+  .group-item,
+  .group-wrapper {
+    width: 1200px;
+  }
+
+  .group-parent2 {
+    left: 240px;
+    width: 960px;
+  }
+  .rectangle-group {
+    left: 20px;
+    width: 400px;
+  }
+  .group-child3 {
+    height: 68px;
+    width: 1200px;
+  }
+  .diagnose {
+    left: 390px;
+  }
+  .audio-player {
+    top: 580px;
+  }
+}
+@media (max-width: 1024px) {
+  .macbook-pro-14-2-child {
+    width: 1024px;
+    height: 80px;
+  }
+  .logo-icon2 {
+    top: 21px;
+    left: 50px;
+  }
+  .audihealth {
+    top: 29px;
+    left: 100px;
+  }
+  .menu1 {
+    top: 0.5%;
+    left: 860px;
+  }
+  .audichecker1 {
+    display: none;
+  }
+  .frame-parent {
+    top: 120px;
+    left: 20px;
+    width: 985px;
+  }
+  .group-div {
+    left: 20px;
+    width: 940px;
+  }
+  .group-item,
+  .group-wrapper {
+    width: 945px;
+  }
+
+  .group-parent2 {
+    left: 120px;
+    width: 395px;
+  }
+  .rectangle-group {
+    left: 20px;
+    width: 400px;
+  }
+  .group-child3 {
+    height: 68px;
+    width: 945px;
+  }
+  .diagnose {
+    left: 270px;
+  }
+  .audio-player {
+    top: 580px;
+  }
+}
+
+@media (max-width: 500px) {
+  .macbook-pro-14-2-child {
+    width: 500px;
+    height: 80px;
+  }
+  .logo-icon2 {
+    top: 21px;
+    left: 15px;
+  }
+  .audihealth {
+    top: 29px;
+    left: 60px;
+  }
+  .menu1 {
+    top: 0.5%;
+    left: 365px;
+  }
+  .audichecker1 {
+    display: none;
+  }
+  .frame-parent {
+    top: 120px;
+    left: 20px;
+    width: 460px;
+  }
+  .group-div {
+    left: 20px;
+    width: 420px;
+  }
+
+  .group-item,
+  .group-wrapper {
+    width: 420px;
+  }
+
+  .group-parent2 {
+    left: 25px;
+    width: 380px;
+  }
+  .upload-icon1 {
+    top: 11.2px;
+    left: 30px;
+  }
+  .record-audio {
+    left: 90px;
+  }
+  .group-frame,
+  .group-inner,
+  .upload-icon {
+    width: 375px;
+  }
+  .rectangle-group {
+    left: 20px;
+    width: 400px;
+  }
+  .group-child3 {
+    height: 68px;
+    width: 420px;
+  }
+  .diagnose {
+    left: 10px;
+    transform: scale(0.8);
+  }
+  .audio-player {
+    top: 570px;
+    transform: scale(0.8);
+  }
+  .graph-container {
+    top: 500px;
+    left: 10px;
+    transform: scale(0.4);
+  }
+}
+
+@media (max-width: 425px) {
+  .macbook-pro-14-2-child {
+    width: 425px;
+    height: 55px;
+  }
+  .logo-icon2 {
+    top: 10px;
+    left: 10px;
+    transform: scale(0.7);
+  }
+  .audihealth {
+    top: 17px;
+    left: 18px;
+    transform: scale(0.7);
+  }
+  .menu1 {
+    top: 0.05%;
+    left: 270px;
+    transform: scale(0.7);
+  }
+  .audichecker1 {
+    display: none;
+  }
+  .frame-parent {
+    top: 10px;
+    left: -45px;
+    width: 515px;
+    transform: scale(0.7);
+  }
+  .group-div {
+    left: 20px;
+    width: 465px;
+  }
+
+  .group-item,
+  .group-wrapper {
+    width: 470px;
+  }
+
+  .group-parent2 {
+    left: 25px;
+    width: 420px;
+  }
+  .upload-icon1 {
+    top: 11.2px;
+    left: 60px;
+  }
+  .record-audio {
+    left: 105px;
+  }
+  .group-frame,
+  .group-inner,
+  .upload-icon {
+    width: 420px;
+  }
+  .rectangle-group {
+    left: 20px;
+    width: 465px;
+  }
+  .group-child3 {
+    height: 68px;
+    width: 470px;
+  }
+  .diagnose {
+    left: 10px;
+    transform: scale(0.8);
+  }
+  .audio-player {
+    top: 400px;
+    transform: scale(0.8);
+  }
+  .graph-container {
+    top: 470px;
+    left: 8px;
+    transform: scale(0.4);
+  }
+}
+
+@media (max-width: 390px) {
+  .macbook-pro-14-2-child {
+    width: 390px;
+    height: 55px;
+  }
+  .logo-icon2 {
+    top: 7px;
+    left: 10px;
+    transform: scale(0.65);
+  }
+  .audihealth {
+    top: 15px;
+    left: 15px;
+    transform: scale(0.65);
+  }
+  .menu1 {
+    top: -0.001%;
+    left: 230px;
+    transform: scale(0.65);
+  }
+  .audichecker1 {
+    display: none;
+  }
+
+  .frame-parent {
+    top: 10px;
+    left: -45px;
+    width: 475px;
+    transform: scale(0.7);
+  }
+  .group-div {
+    left: 20px;
+    width: 430px;
+  }
+
+  .group-item,
+  .group-wrapper {
+    width: 430px;
+  }
+
+  .group-parent2 {
+    left: 25px;
+    width: 380px;
+  }
+  .upload-icon1 {
+    top: 11.2px;
+    left: 45px;
+  }
+  .record-audio {
+    left: 75px;
+  }
+  .group-frame,
+  .group-inner,
+  .upload-icon {
+    width: 380px;
+  }
+  .rectangle-group {
+    left: 22px;
+    width: 430px;
+  }
+  .group-child3 {
+    height: 68px;
+    width: 428px;
+  }
+  .diagnose {
+    left: 5px;
+  }
+  .audio-player {
+    top: 370px;
+    transform: scale(0.6);
+  }
+  .graph-container {
+    top: 470px;
+    left: 8px;
+    transform: scale(0.35);
+  }
+}
+
+@media (max-width: 375px) {
+  .macbook-pro-14-2-child {
+    width: 375px;
+    height: 55px;
+  }
+  .logo-icon2 {
+    top: 7px;
+    left: 10px;
+    transform: scale(0.65);
+  }
+  .audihealth {
+    top: 15px;
+    left: 15px;
+    transform: scale(0.65);
+  }
+  .menu1 {
+    top: -0.001%;
+    left: 230px;
+    transform: scale(0.65);
+  }
+  .audichecker1 {
+    display: none;
+  }
+
+  .frame-parent {
+    top: 10px;
+    left: -45px;
+    width: 465px;
+    transform: scale(0.7);
+  }
+  .group-div {
+    left: 20px;
+    width: 420px;
+  }
+
+  .group-item,
+  .group-wrapper {
+    width: 422px;
+  }
+
+  .group-parent2 {
+    left: 25px;
+    width: 370px;
+  }
+  .upload-icon1 {
+    top: 11.2px;
+    left: 45px;
+  }
+  .record-audio {
+    left: 75px;
+  }
+  .group-frame,
+  .group-inner,
+  .upload-icon {
+    width: 372px;
+  }
+  .rectangle-group {
+    left: 22px;
+    width: 420px;
+  }
+  .group-child3 {
+    height: 68px;
+    width: 420px;
+  }
+  .diagnose {
+    left: 3px;
+  }
+  .audio-player {
+    top: 370px;
+    transform: scale(0.6);
+  }
+  .graph-container {
+    top: 500px;
+    left: 8px;
+    transform: scale(0.3);
+  }
+}
+
+@media (max-width: 320px) {
+  .macbook-pro-14-2-child {
+    width: 320px;
+    height: 50px;
+  }
+  .logo-icon2 {
+    top: 7px;
+    left: 10px;
+    transform: scale(0.6);
+  }
+  .audihealth {
+    top: 15px;
+    left: 10px;
+    transform: scale(0.6);
+  }
+  .menu1 {
+    top: -0.04%;
+    left: 180px;
+    transform: scale(0.6);
+  }
+  .audichecker1 {
+    display: none;
+  }
+
+  .frame-parent {
+    top: 0px;
+    left: -45px;
+    width: 410px;
+    transform: scale(0.7);
+  }
+  .group-div {
+    left: 20px;
+    width: 370px;
+  }
+
+  .group-item,
+  .group-wrapper {
+    width: 370px;
+  }
+
+  .group-parent2 {
+    left: 25px;
+    width: 325px;
+  }
+  .upload-icon1 {
+    top: 11.2px;
+    left: 30px;
+  }
+  .record-audio {
+    left: 60px;
+  }
+  .group-frame,
+  .group-inner,
+  .upload-icon {
+    width: 320px;
+  }
+  .rectangle-group {
+    left: 20px;
+    width: 370px;
+  }
+  .group-child3 {
+    height: 68px;
+    width: 370px;
+  }
+  .diagnose {
+    left: 0px;
+  }
+  .audio-player {
+    top: 360px;
+    transform: scale(0.6);
+  }
+  .graph-container {
+    top: 500px;
+    left: 8px;
+    transform: scale(0.4);
+  }
 }
