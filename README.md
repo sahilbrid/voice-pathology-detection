@@ -48,13 +48,11 @@ npm install
 
 Run the Flask application
 ```
-cd ..
 python app.py
 ```
 
 Start the React frontend
 ```
-cd frontend
 npm run dev
 ```
 
